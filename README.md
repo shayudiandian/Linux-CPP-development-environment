@@ -1,10 +1,10 @@
 # VSCode-Remote-Linux-Development-Tutorial
 
-VSCode远程Linux项目开发（当然可以直接在Linux使用VSCode（跨平台），但对大多数人来说是不方便、不习惯的），企业常用 VSCode 开发，新手必看教程！！！
+VSCode远程Linux项目开发（当然可以直接在Linux使用VSCode（VSCode是跨平台的），但对大多数人来说是不方便、不习惯的），企业常用 VSCode 开发，新手必看教程！！！
 
 
 
-
+首先你需要知道自己的 服务器账号+密码（问管理员申请账号，若是云服务器可以进控制台查看，若是虚拟机使用ifconfig查看ip）
 
 登录 Linux 远程服务器，安装 openssh 服务端
 
@@ -12,7 +12,7 @@ VSCode远程Linux项目开发（当然可以直接在Linux使用VSCode（跨平�
 $ sudo apt-get install openssh-server
 ```
 
-并且需要知道自己的 服务器账号+密码（问管理员或者申请，若是云服务器可以进控制台查看，若是虚拟机使用ifconfig查看ip）
+
 
 
 
@@ -71,6 +71,14 @@ VSCode下载安装
 此时，我们再打开文件夹，就是服务器上的目录列表了
 
 修改文件、创建文件等操作都是同步的，本地的修改会马上同步到服务器
+
+
+
+如果你想断开远程连接，点击左下角，选择关闭远程连接
+
+![image-20241105234927801](assets/image-20241105234927801.png)
+
+
 
 
 
